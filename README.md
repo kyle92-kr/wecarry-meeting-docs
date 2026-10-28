@@ -1,13 +1,7 @@
 # 위캐리 미팅 자료실
 
-최신: 보고서 v1.25 · PRD v1.9 (2026-10-28).
+최신: 보고서 v1.26 · PRD v1.10 (2026-10-28).
 
-- `index.html`: 전체 자료와 최신 다운로드
-- `report.html` / `prd.html`: 고정 열람 주소
-- `report-v1.25.md` / `prd-v1.9.md`: 최신 원문
-- `pdf/report-v1.25.pdf` / `pdf/prd-v1.9.pdf`: 최신 PDF
-- `research.html` / `survey.html`: 기존 리서치·설문 자료
-- `pdf/research-v1.0.pdf` / `pdf/survey-original.pdf`: 재추출한 PDF
-- `archive/`: 이전 HTML·교체 전 보조 PDF 보존본
+index.html에서 HTML·PDF·Markdown·설문 CSV·전체 ZIP을 열거나 내려받습니다. 설문 실명은 기존 보고서와 같은 R1~R4로 치환했습니다. 자유서술과 공개 범위는 유지합니다. archive 및 이전 버전명 파일은 과거 내용 보존본이며 현재 범위는 최신 보고서·PRD를 기준으로 합니다. 보존본도 이름을 치환했고 필요한 PDF를 다시 생성했습니다. Git 과거 이력은 재작성하지 않았습니다.
 
-이전 버전명 파일은 기존 링크 유지를 위해 보존합니다. 최신 파일은 index.html에서 확인하세요. PRD의 큰 도식은 PDF에서 A3 가로 페이지로 제공합니다.
+선택 게시 납품 포함·필수 시험 정의를 반영한 개발 문서입니다. 제품 구현·실제 광고 게시 시험·고객 인수 완료를 뜻하지 않습니다. TikTok은 Pending / API 미검증입니다.
