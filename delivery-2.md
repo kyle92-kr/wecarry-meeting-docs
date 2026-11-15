@@ -10,7 +10,7 @@
 >
 > **버전 1**은 v2.0.0-alpha.2(1차 납품본), **버전 2**는 v2.1.0이며 현재는 rc.4 사전 후보입니다. 버전 1 기록은 보존합니다.
 >
-> **전달 상태:** 버전 2 Drive 파일은 **준비 중**입니다. 현재 폴더의 alpha.2 파일을 버전 2로 설치하지 않습니다. W7 교체 뒤 파일 버전·SHA256·안내를 갱신합니다. 비공개 GitHub 릴리스는 고객 다운로드 경로가 아닙니다.
+> **전달 상태:** [버전 2 (v2.1.0-rc.4) 하위 폴더](https://drive.google.com/drive/folders/1k2zml9OCz2eP5JjQVgFc4qtydm6w-XPa)에 스킬 2개·확장·SHA256SUMS를 제공합니다. **후보 rc.4, 재시험 후 v2.1.0 확정 시 교체될 수 있음**. 상위 폴더의 기존 alpha.2 파일은 버전 1로 보존합니다. 파일 제공은 실기 재시험 통과를 뜻하지 않으며 비공개 GitHub 릴리스는 고객 다운로드 경로가 아닙니다.
 >
 > **Windows 확인:** 조회·꼬리표 중복 멈춤·UTM만 생성 0회, 분리 후 영상 검수, Google 두 테스트 계정 분리 조회/생성, 요청 3건의 생성·재조회 기록이 있습니다. 각 rc.1/rc.2 조건의 결과이며 rc.4 전체 합격은 아닙니다.
 >
@@ -29,18 +29,24 @@
 | 영상 | 광고 세팅과 별도로 영상 검수 스킬 설치, 판정·자막 원문·검사 범위 표 |
 | 기본 화면 | Cowork 프로젝트 폴더 + 서버 작업 공간, 채팅 상태·결과 표 |
 
-## 받을 파일
+## 받을 파일 · 버전 2 후보 rc.4
 
-**버전 2 파일: 준비 중 — W7 Drive 교체 전입니다.** [Google Drive 납품 폴더](https://drive.google.com/drive/folders/1hU0ZCut5hYmS2USXDLfeIFpDzRS441gC?usp=sharing)는 현재 버전 1 alpha.2 파일이 남아 있으므로 버전 2로 설치하지 않습니다.
+[버전 2 (v2.1.0-rc.4) Drive 하위 폴더 열기](https://drive.google.com/drive/folders/1k2zml9OCz2eP5JjQVgFc4qtydm6w-XPa)
 
-| 버전 2 전달 예정 파일 | 구성 | 제공 상태 |
-|---|---|---|
-| wecarry-ad-setup.zip | 광고 세팅 스킬 v0.4 | 준비 중 |
-| wecarry-creative-check.zip | 영상 검수 스킬 v0.1 | 준비 중 |
-| wecarry-google-ads.mcpb | Google 확장 0.2.0 | 준비 중 |
-| SHA256SUMS.txt | 버전 2 파일 무결성 확인 | 교체 후 안내와 함께 갱신 |
+**후보 rc.4, 재시험 후 v2.1.0 확정 시 교체될 수 있음**. 2026-11-15 파일 4개를 제공했습니다. 설치할 때 파일명·버전·SHA256을 함께 확인합니다. 재시험 전 후보이며 아래 실기 확인 범위는 그대로 적용됩니다.
 
-비공개 GitHub 후보 릴리스는 고객 다운로드 경로가 아닙니다. 교체 완료 안내를 받은 뒤 파일·버전·해시를 함께 확인합니다. [버전 1 납품서](delivery.html)의 기록과 파일은 이전 자료로 보존합니다.
+| 파일·구성·크기 | SHA256 |
+|---|---|
+| [wecarry-ad-setup.zip](https://drive.google.com/file/d/1fwj3ASTIyu3sxJrX-S7CNwkd_5NkowjC/view?usp=drivesdk)<br>광고 세팅 스킬 v0.4 · 30,311바이트 | `8526250a2accd01e4642f00ab10e71934377ea9f21ac4df9471ca70d213a5e81` |
+| [wecarry-creative-check.zip](https://drive.google.com/file/d/1U4S0cxLb13uOSkSK4fyxMmdWhtLzHvst/view?usp=drivesdk)<br>영상 검수 스킬 v0.1 · 3,496바이트 | `8c50788abba9a1125fe37a858690d6bc3144ec1a4720708ea7784f7df8ce5cfd` |
+| [wecarry-google-ads.mcpb](https://drive.google.com/file/d/1tOMkvWPRgcfnxD669usomqNEI2Gj-RfO/view?usp=drivesdk)<br>Google 확장 0.2.0 · 215,792바이트 | `963468f33c4a75c0b0cc6cbde8b6fa2398506565aca31f9887387ae29b3a98cf` |
+| [SHA256SUMS.txt](https://drive.google.com/file/d/1ffLWBKwDL-oZ36xDbwWEBWS2pl-ZoBaX/view?usp=drivesdk)<br>설치 파일 3개의 SHA256 목록 · 270바이트 | `36cd0770c1918f9cb8194c28d32299e33f1f26a1c3d5fe4a3f09aa8b15e656ce` |
+
+SHA256SUMS.txt는 설치 파일 3개의 해시 목록이며, 위 마지막 행은 목록 파일 자체의 해시입니다. 업로드 후 Drive 크기와 비로그인 다운로드의 SHA256을 로컬과 대조했습니다.
+
+기존 [버전 1(alpha.2) 상위 폴더](https://drive.google.com/drive/folders/1hU0ZCut5hYmS2USXDLfeIFpDzRS441gC?usp=sharing) 파일은 옮기거나 지우지 않았습니다. 비공개 GitHub 릴리스 대신 위 하위 폴더에서 받습니다.
+
+[버전 1 납품서](delivery.html)의 기록과 파일은 이전 자료로 보존합니다.
 
 ## 1. 관리자 설치 안내서
 
